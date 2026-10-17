@@ -4,10 +4,7 @@ Küçük ekipler için görev yönetim botu. SQLite veritabanı ile çalışıyo
 
 ## Reve API Hakkında
 
-Projede Reve API ile görsel üretimi istenmiştir ancak Reve API şu anda yeni üye kabul etmemektedir. Bu yüzden alternatif olarak **Pollinations.ai** API kullandım. Çalışma mantığı Reve API ile birebir aynı:
-- HTTP isteği ile prompt gönderiyorsun
-- API sana üretilen görseli döndürüyor
-- Ücretsiz ve API key gerektirmiyor
+Projede Reve API ile görsel üretimi istediniz ancak Reve API şu anda yeni üye kabul etmiyor. Bu yüzden alternatif olarak Pollinations.ai API kullandım. Çalışma mantığı Reve API ile aynı.
 
 ## Kurulum
 
@@ -34,13 +31,11 @@ Projede Reve API ile görsel üretimi istenmiştir ancak Reve API şu anda yeni 
 
 ## Komutlar
 
-| Komut | Açıklama |
-|-------|----------|
-| `!add_task <açıklama>` | Yeni görev ekler |
-| `!show_tasks` | Tüm görevleri listeler |
-| `!delete_task <id>` | Görevi siler |
-| `!complete_task <id>` | Görevi tamamlandı olarak işaretler |
-| `!celebrate <id>` | Tamamlanan görev için kutlama görseli oluşturur |
+`!add_task <açıklama>`  Yeni görev ekler 
+`!show_tasks`  Tüm görevleri listeler 
+`!delete_task <id>`  Görevi siler 
+`!complete_task <id>`  Görevi tamamlandı olarak işaretler 
+`!celebrate <id>`  Tamamlanan görev için kutlama görseli oluşturur 
 
 ## Testler
 
@@ -53,8 +48,6 @@ ya da:
 ```bash
 python run_tests.py
 ```
-
-Testler in-memory SQLite kullanıyor yani asıl veritabanına dokunmuyor.
 
 ## Proje Yapısı
 

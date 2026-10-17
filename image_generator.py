@@ -2,10 +2,7 @@
 Kutlama gorseli olusturucu modul.
 
 Reve API yeni uye kabul etmedigi icin alternatif olarak
-Pollinations.ai API kullaniyorum. Mantik ayni:
-- HTTP istegi ile prompt gonderiyorum
-- API bana gorsel donduruyor
-- Ben de discord'a gonderiyorum
+Pollinations.ai API kullaniyorum. 
 
 Pollinations.ai ucretsiz ve API key gerektirmiyor.
 """
@@ -14,7 +11,7 @@ import requests
 import os
 import urllib.parse
 
-# gorseller buraya kaydedilecek
+# gorseller buraya kaydediyorum
 IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "images")
 
 # pollinations api - reve api gibi calisiyor ama ucretsiz
